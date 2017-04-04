@@ -21,6 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -34,7 +35,9 @@
 
   <script>
   $(document).ready(function() {
-    $('#search').hideseek();
+    $('#search').hideseek({
+      hidden_mode: true
+    });
 
   });
   </script>
@@ -46,12 +49,50 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <input id="search" name="search" placeholder="Start typing here" type="text" data-list=".list">
+      <div class="twelve columns" id="store-search">
+        <p>Find a Store</p>
+
+
+
+        <input id="search" name="search" placeholder="94087" type="text" data-list=".list">
           <ul class="list">
-            <li>item 1</li>
-            <li>item 2</li>
-            <li><a href="#">item 3</a></li>
+            <li>
+              <div class="store">
+                <b>Sprouts Farmers Market #216</b><br>
+                111 E El Camino Real<br>
+                Sunnyvale, CA<br>
+                94087<br>
+                tel: <a href="tel:4087021172">408-702-1172</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="store">
+                <b>Sprouts Farmers Market #271</b><br>
+                630 San Antonio Rd<br>
+                Mountain View, CA<br>
+                tel: <a href="tel:6503973001">650-397-3001</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="store">
+                <b>Pharmaca - Menlo Park</b><br>
+                871 Santa Cruz Ave.<br>
+                Menlo Park, CA<br>
+                tel: <a href="tel:3038673155">303-867-3155</a>
+              </div>
+            </li>
+
+            <li>
+              <div class="store">
+                <b>Draeger's Marketplace #1 Menlo Park</b><br>
+                1010 University Ave<br>
+                Menlo Park, CA<br>
+                tel: <a href="tel:6503247700">650-324-7700</a>
+
+              </div>
+            </li>
           </ul>
       </div>
     </div>
