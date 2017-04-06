@@ -1,3 +1,20 @@
+/*
+styles provided by Michael
+
+Blue: #004680
+Yellow: #ffcb08
+Google Font: Lato Regular, Semi-bold & bold
+body copy font color: #2f2f2f
+*/
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  letter-spacing: .02em;
+  line-height: 1.4em;
+}
+
 ul{
   list-style-type: none;
 }
@@ -9,4 +26,17 @@ ul{
 
 .store{
 
+}
+
+#hero-full{
+  width: 1650px;
+  max-width: 100%;
+}
+
+
+#img-sidebar{
+
+}
+#sf-map-fade{
+  max-width: 100%;
 }
