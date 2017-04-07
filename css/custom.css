@@ -20,7 +20,7 @@ input[type="text"]:focus{
 p{
 
 
-  font-size: 1.2em;
+  font-size: 1.3em;
   letter-spacing: .02em;
   line-height: 1.4em;
 
@@ -49,7 +49,7 @@ main{
 
 
 ul{
-  font-size: 1.2em;
+  font-size: 1.3em;
   letter-spacing: .02em;
   line-height: 1.4em;
   list-style-type: bullet;
@@ -57,7 +57,7 @@ ul{
   margin-bottom: 0px;
 }
 li{
-  margin-bottom: 2px;
+  margin-bottom: 12px;
 }
 @media(max-width: 754px){
   main{
@@ -114,7 +114,7 @@ li{
     display: block;
   }
 }
-@media(max-width: 495px){
+@media(max-width: 570px){
   #bullet-points-vertical{
     display: block;
   }
@@ -192,9 +192,14 @@ li{
 
 }
 
-#hero-full{
+#hero-full, #hero-mobile{
   width: 1650px;
   max-width: 100%;
+}
+#hero-mobile{ display: none }
+@media(max-width: 754px){
+  #hero-full{ display: none }
+  #hero-mobile{ display: block}
 }
 
 

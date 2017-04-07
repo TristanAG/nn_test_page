@@ -35,7 +35,10 @@
 
   <script>
   $(document).ready(function() {
-    $('#search').hideseek({
+    $('#desktop-search').hideseek({
+      hidden_mode: true
+    });
+    $('#mobile-search').hideseek({
       hidden_mode: true
     });
 
@@ -50,6 +53,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <header>
     <img src="images/sf-hero.jpg" id="hero-full" />
+    <img src="images/sf-hero-mobile.jpg" id="hero-mobile" />
   </header>
 
 
@@ -62,7 +66,7 @@
             <h1>Find a Store</h1>
 
 
-            <input id="search" name="search" placeholder="94087" type="text" data-list=".list">
+            <input id="mobile-search" name="search" placeholder="94087" type="text" data-list=".list">
               <ul class="list">
                 <li>
                   <div class="store">
@@ -241,11 +245,12 @@
       </div>
 
       <div class="four columns">
+
         <div id="map">
           <h1>Find a Store</h1>
 
 
-          <input id="search" name="search" placeholder="94087" type="text" data-list=".list">
+          <input id="desktop-search" name="search" placeholder="94087" type="text" data-list=".list">
             <ul class="list">
               <li>
                 <div class="store">
