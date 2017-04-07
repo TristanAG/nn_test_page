@@ -12,9 +12,7 @@ body{
   color: #2f2f2f;
 }
 
-input[type="text"]{
-  
-}
+
 input[type="text"]:focus{
   border: 1px solid #004680;
 }
@@ -47,7 +45,17 @@ header{
 
 main{
   padding-right: 54px;
-
+}
+@media(max-width: 754px){
+  main{
+    padding-right: 0px;
+  }
+  p{
+    font-size: 16px;
+  }
+  input[type="text"]{
+    font-size: 16px;
+  }
 }
 
 ul{
