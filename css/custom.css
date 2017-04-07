@@ -9,14 +9,57 @@ body copy font color: #2f2f2f
 
 body{
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 1.5em;
+  color: #2f2f2f;
+}
+
+p{
+
+
+  font-size: 1.2em;
   letter-spacing: .02em;
   line-height: 1.4em;
+
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: .02em;
+  color: #004680;
+  font-size: 2em;
+}
+
+b{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+header{
+  margin-bottom: 24px;
+}
+
+main{
+  padding-right: 54px;
 }
 
 ul{
-  list-style-type: none;
+  font-size: 1.2em;
+  letter-spacing: .02em;
+  line-height: 1.4em;
+  list-style-type: bullet;
+  padding-left: 16px;
+}
+li{
+
+}
+
+#list-1{
+  display: inline-block;
+}
+#list-2{
+  display: inline-block;
+  /*margin-left: 40px;*/
+  float: right;
 }
 
 #store-search{
@@ -39,4 +82,6 @@ ul{
 }
 #sf-map-fade{
   max-width: 100%;
+  border: 1px solid #D6D6D6;
+  border-radius: 2px;
 }
