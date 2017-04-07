@@ -113,6 +113,22 @@ li{
   margin-bottom: 24px;
   text-align: center;
 }
+#mobile-search{
+  display: none;
+}
+#mobile-search ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+@media(max-width: 754px){
+  #map{
+    display: none;
+  }
+  #mobile-search{
+    display: block;
+  }
+}
+
 #map h1{
   text-align: center;
   margin-top: 8px;
@@ -143,7 +159,7 @@ li{
   margin-top: 4px;
   margin-bottom: 4px;
   margin-right: 8px;
-  
+
   padding-left: 4px;
   text-align: left;
 
