@@ -121,7 +121,14 @@ li{
 
 #map ul{
   list-style-type: none;
-  text-align: left;
+  text-align: center;
+  /*width: 120px;*/
+}
+#map li{
+  /*width: 240px;*/
+  /*margin-left: 50%;
+  margin-right: 50%;*/
+  text-align: center;
 }
 
 
@@ -137,6 +144,8 @@ li{
   margin-bottom: 4px;
   margin-right: 8px;
   padding-left: 4px;
+  text-align: left;
+
 }
 
 #hero-full{
