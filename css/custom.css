@@ -12,6 +12,13 @@ body{
   color: #2f2f2f;
 }
 
+input[type="text"]{
+  
+}
+input[type="text"]:focus{
+  border: 1px solid #004680;
+}
+
 p{
 
 
@@ -120,12 +127,20 @@ li{
   list-style-type: none;
   padding-left: 0px;
 }
+
 @media(max-width: 754px){
   #map{
     display: none;
   }
   #mobile-search{
     display: block;
+  }
+  input{
+    width: 600px;
+    max-width: 100%;
+  }
+  h1{
+    text-align: center;
   }
 }
 
