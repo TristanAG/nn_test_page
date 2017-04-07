@@ -11,6 +11,12 @@ body{
   font-family: 'Lato', sans-serif;
   color: #2f2f2f;
 }
+a{
+  color: #1d83d6;
+}
+a:hover{
+  color: #004680;
+}
 
 
 #main-mobile{
@@ -33,6 +39,9 @@ body{
 
 input[type="text"]:focus{
   border: 1px solid #004680;
+}
+input[type="text"]{
+  font-size: 1.3em;
 }
 
 p{
