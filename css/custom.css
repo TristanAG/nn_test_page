@@ -104,6 +104,14 @@ li{
   }
 }
 
+#map{
+  background-image: url("../images/sf-map-bg-fade.jpg");
+  background-size: 244px 620px;
+  min-height: 580px;
+  background-repeat: no-repeat;
+  border: 1px solid #D6D6D6;
+}
+
 #store-search{
   margin-top: 22px;
   text-align: left;
