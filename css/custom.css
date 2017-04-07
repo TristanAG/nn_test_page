@@ -55,10 +55,14 @@ li{
   margin-bottom: 2px;
 }
 
+#product-wrapper{
+  text-align: center;
+}
 #product-image{
   max-width: 100%;
   margin-bottom: 32px;
 }
+
 
 #list-1{
   display: inline-block;
@@ -67,6 +71,37 @@ li{
   display: inline-block;
   /*margin-left: 40px;*/
   float: right;
+}
+
+#bullet-points-vertical{
+  display: none;
+}
+#bullet-points-horizontal{
+  display: block;
+}
+@media(max-width: 813px){
+  #bullet-points-vertical{
+    display: block;
+  }
+  #bullet-points-horizontal{
+    display: none;
+  }
+}
+@media(max-width: 754px){
+  #bullet-points-vertical{
+    display: none;
+  }
+  #bullet-points-horizontal{
+    display: block;
+  }
+}
+@media(max-width: 495px){
+  #bullet-points-vertical{
+    display: block;
+  }
+  #bullet-points-horizontal{
+    display: none;
+  }
 }
 
 #store-search{
