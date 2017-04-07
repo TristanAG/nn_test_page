@@ -105,10 +105,17 @@ li{
 
 #product-wrapper{
   text-align: center;
+  margin-left: -20px;
+}
+@media (max-width: 710px){
+  #product-wrapper{
+    margin-left: 0px;
+  }
 }
 #product-image{
   max-width: 100%;
   margin-bottom: 32px;
+
 }
 
 
