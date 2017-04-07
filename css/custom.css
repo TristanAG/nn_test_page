@@ -58,7 +58,7 @@ h1{
   font-weight: 400;
   letter-spacing: .02em;
   color: #004680;
-  font-size: 2em;
+  font-size: 24px;
 }
 
 b{
@@ -160,6 +160,9 @@ li{
   border: 1px solid #D6D6D6;
   margin-bottom: 24px;
   text-align: center;
+}
+#map h1{
+  font-size: 20px;
 }
 
 
