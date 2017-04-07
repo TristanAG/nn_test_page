@@ -40,6 +40,7 @@ header{
 
 main{
   padding-right: 54px;
+  
 }
 
 ul{
@@ -84,4 +85,8 @@ li{
   max-width: 100%;
   border: 1px solid #D6D6D6;
   border-radius: 2px;
+}
+
+footer{
+  background-color: #004680;
 }
