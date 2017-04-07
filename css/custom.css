@@ -129,11 +129,12 @@ li{
 }
 
 footer{
-  /*background-color: #004680;*/
+  background-color: #004680;
   text-align: center;
 }
 footer img{
-
+  margin-top: 44px;
+  margin-bottom: 120px;
   max-width: 100%;
   width: 320px;
 }
