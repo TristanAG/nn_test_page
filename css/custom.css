@@ -106,11 +106,24 @@ li{
 
 #map{
   background-image: url("../images/sf-map-bg-fade.jpg");
-  background-size: 244px 620px;
+  background-size: 244px 600px;
   min-height: 580px;
   background-repeat: no-repeat;
   border: 1px solid #D6D6D6;
+  margin-bottom: 24px;
+  text-align: center;
 }
+#map h1{
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+
+#map ul{
+  list-style-type: none;
+  text-align: left;
+}
+
 
 #store-search{
   margin-top: 22px;
@@ -118,7 +131,12 @@ li{
 }
 
 .store{
-
+  background-color: white;
+  border: 1px solid #D6D6D6;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 8px;
+  padding-left: 4px;
 }
 
 #hero-full{
