@@ -13,6 +13,24 @@ body{
 }
 
 
+#main-mobile{
+  display: none;
+}
+#main-desktop{
+  display: block;
+}
+
+@media(max-width: 754px){
+  #main-mobile{
+    display: block;
+  }
+  #main-desktop{
+    display: none;
+  }
+
+}
+
+
 input[type="text"]:focus{
   border: 1px solid #004680;
 }
@@ -132,21 +150,13 @@ li{
   margin-bottom: 24px;
   text-align: center;
 }
-#mobile-search{
-  display: none;
-}
-#mobile-search ul{
-  list-style-type: none;
-  padding-left: 0px;
-}
+
 
 @media(max-width: 754px){
-  #map{
+  /*#map{
     display: none;
-  }
-  #mobile-search{
-    display: block;
-  }
+  }*/
+
   input{
     width: 600px;
     max-width: 100%;
